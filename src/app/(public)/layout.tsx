@@ -8,7 +8,7 @@ export default function PublicLayout({
 }>) {
   return (
     <div className="flex flex-col min-h-screen">
-      <MaxWidthWrapper>
+      <MaxWidthWrapper className="flex-1 flex flex-col gap-8">
         <Header />
         {children}
       </MaxWidthWrapper>
