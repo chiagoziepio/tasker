@@ -1,4 +1,5 @@
 import Collaboration from "./AppOffers/Collaboration";
+import FAQ from "./FAQ";
 import HeroSection from "./HeroSection";
 
 const LandingPage = () => {
@@ -6,6 +7,7 @@ const LandingPage = () => {
     <main className="my-10 flex flex-col gap-10">
       <HeroSection />
       <Collaboration />
+      <FAQ />
     </main>
   );
 };

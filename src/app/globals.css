@@ -6,12 +6,12 @@
 @theme {
   --color-bg2: #dedddc;
   --color-primaryBlue: #3070a0;
-}
-
-@theme inline {
   --font-roboto: var(--font-roboto);
   --font-poppins: var(--font-poppins);
   --font-playfair: var(--font-playfair);
+}
+
+@theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
