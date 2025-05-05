@@ -20,3 +20,7 @@ export const LoginSchema = z.object({
   staffId: z.string().trim().min(1, { message: "staff id is required" }),
   password: z.string().trim().min(8, { message: "password is required" }),
 });
+
+export const forgotPasswordSchema = z.object({
+  staffid: z.string().trim().min(1, { message: "staff id is required" }),
+});
