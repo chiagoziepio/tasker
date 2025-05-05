@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Roboto, Poppins, Playfair } from "next/font/google";
 import "./globals.css";
+import { Toaster } from "@/components/ui/sonner";
 
 const roboto = Roboto({
   weight: ["400", "500", "700"],
@@ -35,6 +36,7 @@ export default function RootLayout({
         className={` ${roboto.className} ${poppins.className} ${playfair.className} antialiased overflow-x-hidden overflow-y-auto`}
       >
         {children}
+        <Toaster />
       </body>
     </html>
   );

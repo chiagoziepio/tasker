@@ -13,15 +13,6 @@ const Contact = () => {
         </div>
       </BackBtn>
       <ContactForm />
-      <div className="w-[300px] h-[300px] bg-black p-1">
-        <div
-          style={{
-            clipPath:
-              "polygon(25% 20% , 85% 20%, 100% 40%, 100% 70%, 100% 80%, 85% 20%)",
-          }}
-          className="w-full h-full bg-white"
-        ></div>
-      </div>
     </main>
   );
 };
